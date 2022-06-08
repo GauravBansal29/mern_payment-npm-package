@@ -1,5 +1,5 @@
 {
-  "name": "mern_payment",
+  "name": "mern_pay",
   "version": "1.0.0",
   "description": "Help MERN developers to add payments to their app",
   "main": "index.js",
