@@ -7,7 +7,7 @@ Get payment gateway in your MERN app by using this package.
 1. Using `npm i mern_pay` ,add package in both your server and client side of app
 2. Go to https://razorpay.com/ , Login and make a Razorpay account.
 3. Go to Setting -> API keys -> Generate API keys
-4. Store the KEY_ID and KEY_SECRET in the .env file by name RAZORPAY_KEY_ID and RAZORPAY_KEY_SECRET in your backend.
+4. Store the *KEY_ID* and *KEY_SECRET* in the .env file by name **RAZORPAY_KEY_ID** and **RAZORPAY_KEY_SECRET** in your backend.
 
 # Usage
 
@@ -101,5 +101,6 @@ router.post("/payment-order", paymentOrder);
 
 module.exports = router;
 ```
-<img width="681" alt="npm package add" src="https://user-images.githubusercontent.com/77917141/172526933-4f1e87ed-4add-4b1a-8a3f-4b6122661d5d.png">
+<img width="691" alt="add payment pic" src="https://user-images.githubusercontent.com/77917141/172527183-c48e9c42-cb13-4018-b4cf-066070ad015f.png">
+
 
