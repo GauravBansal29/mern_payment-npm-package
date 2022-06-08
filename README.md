@@ -36,7 +36,7 @@ call `processPayment` function with following parameters:
 - customer_contacts - Contact number of customer
 - color_theme - color of the gateway (give a hexadecimal string denoting the color)
 
-onSuccess is a function which will execute on successful payment
+*onSuccess* is a function which will be called on successful payment
 It has 4 default parameters :
 
 1. Amount
@@ -44,7 +44,7 @@ It has 4 default parameters :
 3. Razorpay Order Id
 4. Razorpay Payment Signature
 
-onFailure is a function which will execute on payment failure
+*onFailure* is a function which will be called on payment failure
 
 ## Demo
 
@@ -78,7 +78,7 @@ onFailure)}}>hello</div>);
 export default getPayment;
 ```
 
-NOTE: The ordering of the parameters is important and all the paramters are needed for the gateway to work properly.
+**NOTE:** The ordering of the parameters is important and all the paramters are needed for the gateway to work properly.
 
 ## Server Side
 
@@ -86,7 +86,7 @@ NOTE: The ordering of the parameters is important and all the paramters are need
 
 1. Make a get request to `/get-key` and pass getKey function to it
 2. Make a post request to `/get-order` and pass getOrder function to it
-3. Make a post request to `payment-order` and pass paymentOrder function to it
+3. Make a post request to `/payment-order` and pass paymentOrder function to it
 
 ## Demo
 
