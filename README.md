@@ -101,6 +101,9 @@ router.post("/payment-order", paymentOrder);
 
 module.exports = router;
 ```
+# Payment Gateway 
 <img width="691" alt="add payment pic" src="https://user-images.githubusercontent.com/77917141/172527183-c48e9c42-cb13-4018-b4cf-066070ad015f.png">
+<img width="656" alt="pay2" src="https://user-images.githubusercontent.com/77917141/172527801-20f52216-0dc5-459b-a579-a8e357577c01.png">
+<img width="680" alt="pay3" src="https://user-images.githubusercontent.com/77917141/172527813-27f253d7-fc3f-4612-91c4-168b4c46b886.png">
 
 
