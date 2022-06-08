@@ -1,6 +1,6 @@
 {
   "name": "mern_pay",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Help MERN developers to add payments to their app",
   "main": "index.js",
   "scripts": {
