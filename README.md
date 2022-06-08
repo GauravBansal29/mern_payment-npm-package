@@ -54,11 +54,11 @@ import {processPayment} from "mern_pay" `
 
     const onSuccess=(a,b,c,d)=>{
         //a,b,c,d are amount, payment id, order id and razorpay signature
-        // add something you want to execute
+        // add something you want to execute on successfull payment 
         console.log("Got the payment");
     }
     const onFailure=()=>{
-        //add something you want to execute
+        //add something you want to execute on payment failure 
         console.log("Sorry its a decline");
     }
 
@@ -68,8 +68,8 @@ return
 200,
 'charles',
 'payment for coffee' ,
-'gaurav.rdps@gmail.com',
-'9654004473',
+'abc@xyz.com',
+'9111111111',
 '#0000FF',
 onSuccess,
 onFailure)}}>hello</div>);
