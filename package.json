@@ -18,5 +18,6 @@
   "homepage": "https://github.com/GauravBansal29/mern_payment-npm-package#readme",
   "dependencies": {
     "axios": "^0.27.2"
-  }
+  },
+  "keywords": ["payment", "mern-payment", "pay", "payment-gateway", "razorpay", "payment-india"]
 }
