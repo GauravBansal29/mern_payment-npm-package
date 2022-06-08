@@ -1,0 +1,22 @@
+{
+  "name": "mern_payment",
+  "version": "1.0.0",
+  "description": "Help MERN developers to add payments to their app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GauravBansal29/mern_payment-npm-package.git"
+  },
+  "author": "Gaurav Bansal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GauravBansal29/mern_payment-npm-package/issues"
+  },
+  "homepage": "https://github.com/GauravBansal29/mern_payment-npm-package#readme",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
