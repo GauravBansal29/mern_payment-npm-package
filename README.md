@@ -1,6 +1,6 @@
 ﻿# What is this ?
 
-Get payment gateway in your MERN app by using this package.
+Add payments to your MERN app ( integrate payment gateway , manage payments in your Account Dashboard ) 
 
 # Installation and Setup
 
